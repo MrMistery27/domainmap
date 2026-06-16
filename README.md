@@ -35,8 +35,6 @@ npm run build
 
 TLD data sourced from the official [IANA Root Zone Database](https://data.iana.org/TLD/tlds-alpha-by-domain.txt).
 
-Pricing data from [prepaid-host.com](https://prepaid-host.com/domain/order) (verified June 2026, incl. 19% VAT).
-
 ## License
 
 MIT
