@@ -1,16 +1,42 @@
-# React + Vite
+# 🗺️ Domain Map
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fast, searchable reference for all 1,200+ ICANN-registered top-level domains (TLDs) — including origin, type, and pricing from German hosting providers.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **1,286 TLDs** directly from the IANA Root Zone Database (updated June 2026)
+- Filter by type: gTLD, ccTLD, Brand
+- Search by TLD name or country of origin
+- Paginated table (50 per page) for smooth performance
+- Price comparison for selected TLDs across German hosting providers
+- Curated "cool TLD" combinations with example domains
+- Dark mode support
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- [React](https://react.dev/) + [Vite](https://vitejs.dev/)
+- No external dependencies beyond React itself
+- Deployed via GitHub Pages
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+# Install dependencies
+npm install
+
+# Start dev server
+npm run dev
+
+# Build for production
+npm run build
+```
+
+## Data Source
+
+TLD data sourced from the official [IANA Root Zone Database](https://data.iana.org/TLD/tlds-alpha-by-domain.txt).
+
+Pricing data from [prepaid-host.com](https://prepaid-host.com/domain/order) (verified June 2026, incl. 19% VAT).
+
+## License
+
+MIT
